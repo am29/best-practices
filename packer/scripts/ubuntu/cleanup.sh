@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 
 echo Cleanup...
 apt-get -y autoremove

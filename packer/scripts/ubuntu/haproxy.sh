@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 
 CONFIGDIR=/ops/$1
 SCRIPTSDIR=/ops/$2
