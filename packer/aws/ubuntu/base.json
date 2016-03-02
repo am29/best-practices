@@ -34,7 +34,7 @@
       "access_key":      "{{user `aws_access_key`}}",
       "secret_key":      "{{user `aws_secret_key`}}",
       "region":          "us-east-1",
-      "vpc_id":          "10.0.0.0/16",
+      "vpc_id":          "vpc-1e406c7a",
       "subnet_id":       "subnet-195cf933",
       "source_ami":      "{{user `us_east_1_ami`}}",
       "instance_type":   "c3.large",
