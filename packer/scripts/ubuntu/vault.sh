@@ -16,7 +16,8 @@ echo Fetching Vault...
 curl -L $VAULTDOWNLOAD > vault.zip
 
 echo Installing Vault...
-unzip vault.zip -d /usr/local/bin
+apt-get install -y unzip
+$(which unzip) vault.zip -d /usr/local/bin
 chmod 0755 /usr/local/bin/vault
 chown root:root /usr/local/bin/vault
 
