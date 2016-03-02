@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -xe
 
 echo Install dependencies...
 # Update the box
